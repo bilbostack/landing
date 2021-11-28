@@ -2,7 +2,7 @@ const { description } = require('../package')
 
 module.exports = {
 
-  title: "BilboStack Conference 2022",
+  title: "BilboStack Conference",
   description: description,
 
     head: [
@@ -12,7 +12,6 @@ module.exports = {
   ],
 
   themeConfig: {
-    overrideTheme: 'dark',
     repo: '',
     search: false,
     editLinks: false,

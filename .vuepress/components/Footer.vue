@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    Made with ❤️ and ☕
+    Made by <b>BilboStack</b> with ❤️ and ☕
   </footer>
 </template>
 
