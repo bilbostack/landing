@@ -1,0 +1,21 @@
+{
+  "name": "bilbostack",
+  "version": "0.0.1",
+  "description": "BilboStack Conference 2022",
+  "main": "index.js",
+  "authors": {
+    "name": "bilbostack",
+    "email": "info@bilbostack.com"
+  },
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vuepress-theme-bulma": "^1.1.0"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
