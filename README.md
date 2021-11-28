@@ -7,4 +7,4 @@ yarn test # make sure your code change pass the test
 yarn build # build for production
 ```
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8767c29c-5fc1-4f60-a2a4-b424132ae684/deploy-status)](https://app.netlify.com/sites/bilbostack-landing/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d89b7503-dc3e-4d7e-a787-40df25898fa0/deploy-status)](https://app.netlify.com/sites/bilbostack-landing/deploys)
