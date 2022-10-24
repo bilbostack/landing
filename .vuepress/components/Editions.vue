@@ -19,7 +19,8 @@
             <a href="https://2019.bilbostack.com" target="_blank"><b>2019</b></a> 
             | 
             <a href="https://2020.bilbostack.com" target="_blank"><b>2020</b></a>
-            <br />| 
+            |
+            <br />
             <span><b>2😷21</b></span>
             | 
             <a href="https://2022.bilbostack.com" target="_blank"><b>2022</b></a>
