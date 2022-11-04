@@ -12,9 +12,10 @@
   width: 50%;
   padding: 5px;
   text-align: center;
+  font-weight: bold;
 }
 
-p a {
+a {
     font-weight: bold;
 }
 </style>
