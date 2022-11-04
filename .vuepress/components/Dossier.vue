@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-p {
+p a {
     font-weight: bold;
 }
 </style>
