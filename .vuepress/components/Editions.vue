@@ -1,7 +1,7 @@
 <template>
     <div class="past-events">
         <p>
-            Check previous editions <br />
+            or check previous editions <br />
             <a href="https://web.archive.org/web/20120502190422/http://bilbostack.com/" target="_blank"><b>2012</b></a> 
             | 
             <a href="https://web.archive.org/web/20130110075437/http://bilbostack.com/" target="_blank"><b>2013</b></a> 
@@ -30,9 +30,7 @@
 <style scoped>
 .past-events {
   margin: auto;
-  margin-top: 2em;
   width: 50%;
-  padding: 10px;
   text-align: center;
 }
 </style>
