@@ -1,7 +1,7 @@
 <template>
     <div class="dossier">
         <p>
-            👉 <a :href="$withBase('/bilbostack-sponsors-2023_es.pdf')" target="_blank">Take a look </a>at our sponsorship opportunities 👈
+            👉 <a :href="$withBase('/bilbostack-sponsors-2023_es.pdf')" target="_blank">Take a look </a>at our sponsorship opportunities for the <a href="https://bilbostack.com" target="_blank">2023 edition</a> 👈
         </p>
     </div>
 </template>
