@@ -2,7 +2,7 @@ const { description } = require('../package')
 
 module.exports = {
 
-  title: "#BilboStack23",
+  title: "#BilboStack24",
   description: description,
 
     head: [
