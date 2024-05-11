@@ -26,6 +26,8 @@
             <a href="https://2022.bilbostack.com" target="_blank"><b>2022</b></a>
             | 
             <a href="https://2023.bilbostack.com" target="_blank"><b>2023</b></a>
+            | 
+            <a href="https://2024.bilbostack.com" target="_blank"><b>2024</b></a>
         </p>
     </div>
 </template>
