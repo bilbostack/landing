@@ -4,6 +4,12 @@ body{
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
 }
+.hidden-big{
+    display: inline-block;
+}
+.hidden-small{
+    display: none;
+}
 
 header{
     padding: 4rem 0 2rem 0;
@@ -57,6 +63,12 @@ footer .social a{
     color: #08262E;
 }
 @media (min-width: 768px) {
+    .hidden-big{
+        display: none;
+    }
+    .hidden-small{
+        display: inline-block;
+    }
     header{
         padding: 6rem 0 2rem 0;
     }
