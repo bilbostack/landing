@@ -1,1 +1,1 @@
-Only HTML + CSS because YOLO.
+This is just HTML + CSS because YOLO.
