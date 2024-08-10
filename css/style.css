@@ -3,6 +3,7 @@ body{
     color: #08262E;
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
+    font-size: 4vw;
 }
 .hidden-big{
     display: inline-block;
@@ -38,11 +39,16 @@ header .info{
 
 article{
     padding: 4rem 0 4rem 0;
-    background-color: #F2F2F2;
+    background-color: #991B80;
+    color: #F2F2F2;
 }
 article h1{
     margin-bottom: 2rem;
+    font-weight: 300;
     font-size: 2.8rem;
+}
+article strong{
+    font-weight: 600;
 }
 iframe{
     margin: 2rem 0;
@@ -51,7 +57,7 @@ iframe{
     height: 290px;
 }
 a{
-    color: #E1277C;
+    color: #FBBA22;
 }
 footer{
     border-top: 2px dotted #08262E;
@@ -60,7 +66,8 @@ footer{
 footer .social a{
     display: inline-block;
     padding: .2rem;
-    color: #08262E;
+    color: #991B80;
+    font-weight: bold;
 }
 @media (min-width: 768px) {
     .hidden-big{
