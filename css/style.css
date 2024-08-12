@@ -12,10 +12,23 @@ body{
     display: none;
 }
 header{
-    padding: 4rem 0 2rem 0;
+    padding: 0 0 2rem 0;
     text-align: center;
     background-color: #08262E;
     color: #F2F2F2;
+}
+header .links {
+    text-align: right;
+    padding: 0.8rem 0 1.6rem 0;
+}
+header .links a{
+    text-align: right;
+    color: #F6F6F6;
+    text-decoration: none;
+    font-size: 2.5vw;
+    border-bottom: 1px solid #F6F6F6;
+    display: inline-block;
+    opacity: .9;
 }
 header img{
     margin: 2rem 0 2rem 0;
@@ -79,8 +92,11 @@ footer .social a{
     .hidden-small{
         display: inline-block;
     }
-    header{
-        padding: 6rem 0 2rem 0;
+    header .links {
+        padding: 1rem 0 3rem 0;
+    }
+    header .links a{
+        font-size: 1.4vw;
     }
     article{
         padding: 4rem 0 4rem 0;
@@ -105,6 +121,9 @@ footer .social a{
     }
     header h2 {
         font-size: 2vw;
+    }
+    header .links a{
+        font-size: 1.2vw;
     }
     article h1 {
         font-size: 3.2vw;
