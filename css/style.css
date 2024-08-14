@@ -66,6 +66,7 @@ article strong{
 }
 article a.sponsors{
     margin: 1rem 0 1rem 0;
+    font-size: 4vw;
 }
 iframe{
     margin: 2rem 0;
@@ -90,7 +91,7 @@ footer .social a{
     font-weight: bold;
 }
 @media (min-width: 768px) {
-    body{
+    body, article a.sponsors{
         font-size: 2.4vw;
     }
     .hidden-big{
@@ -126,7 +127,7 @@ footer .social a{
     }
 }
 @media (min-width: 1200px) {
-    body{
+    body, article a.sponsors{
         font-size: 1.5vw;
     }
     header h2 {
