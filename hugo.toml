@@ -1,0 +1,24 @@
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = false
+[languages]
+    [languages.es]
+      disabled = false
+      languageCode = 'e'
+      languageDirection = ''
+      languageName = 'Español'
+      title = ''
+      weight = 0
+    [languages.en]
+      disabled = false
+      languageCode = 'en'
+      languageDirection = ''
+      languageName = 'English'
+      title = ''
+      weight = 1
+    [languages.eu]
+      disabled = false
+      languageCode = 'eu'
+      languageDirection = ''
+      languageName = 'Euskera'
+      title = ''
+      weight = 2

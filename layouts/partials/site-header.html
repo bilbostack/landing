@@ -1,0 +1,21 @@
+<header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 offset-lg-9 col-4 offset-8">
+        <div class="row">
+          <p class="links text-center">
+            {{ range $.Site.Home.AllTranslations }}
+              <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+            {{ end }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <img src="/img/logo-header.png" alt="Bilbostack Tech Conference">
+        <h2 class="info"><strong>25.01.2025</strong> en&nbsp;Bilbao</h2>
+      </div>
+    </div>
+  </div>
+</header>
