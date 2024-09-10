@@ -1,8 +1,7 @@
+baseURL = "https://bilbostack.com"
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 [params]
-    domain = "bilbostack.com"
-    domainURL = "https://bilbostack.com"
     hashtag = "#Bilbostack25"
 [languages]
     [languages.es]

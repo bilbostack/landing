@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="icon" href="/img/favicon.jpg">
+  {{ with resources.Get "img/favicon.jpg" }}
+    <link rel="icon" href="{{ .Permalink }}">
+  {{ end }}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
