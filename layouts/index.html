@@ -1,0 +1,41 @@
+{{ define "main" }}
+<article>
+  <div class="container-fluid">
+    <div class="col-lg-8 offset-lg-2">
+      <h1 class="hidden-small">{{T "claim_desktop" | safeHTML }}</h1>
+      <h1 class="hidden-big">{{T "claim_mobile" | safeHTML }}</h1>
+      <a href="https://docs.google.com/presentation/d/10Brg_D1M-7E-SyBWArMMgeSF6AuzdXIgJyDGk7sklsk/edit?usp=sharing"
+         target="_blank"
+         title="{{T "cta_sponsors" }}"
+         class="btn btn-lg btn-outline-light sponsors">{{T "cta_sponsors" }}</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <iframe src="https://www.youtube.com/embed/cibqKWMiMQA?si=Edt43LCo1IW_Geue" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+      </div>
+      <p class="editions">
+        {{T "last_editions_text" }} <br>
+        <a href="https://web.archive.org/web/20120502190422/http://bilbostack.com/" target="_blank">2012</a>
+        | <a href="https://web.archive.org/web/20130110075437/http://bilbostack.com/" target="_blank">2013</a>
+        | <a href="https://web.archive.org/web/20140205142714/http://bilbostack.com/" target="_blank">2014</a>
+        | <a href="https://web.archive.org/web/20150109210526/http://bilbostack.com/" target="_blank">2015</a>
+        | <a href="https://web.archive.org/web/20160109081707/http://bilbostack.com/" target="_blank">2016</a>
+        | <a href="https://web.archive.org/web/20170601095000/http://bilbostack.com/" target="_blank">2017</a>
+        | <a href="https://web.archive.org/web/20180129112902/http://bilbostack.com/" target="_blank">2018</a>
+        | <a href="https://2019.bilbostack.com" target="_blank">2019</a>
+        | <a href="https://2020.bilbostack.com" target="_blank">2020</a>
+        | <span>2😷21</span>
+        | <a href="https://2022.bilbostack.com" target="_blank">2022</a>
+        | <a href="https://2023.bilbostack.com" target="_blank">2023</a>
+        | <a href="https://2024.bilbostack.com" target="_blank">2024</a>
+      </p>
+    </div>
+  </div>
+</article>
+{{end}}
+    

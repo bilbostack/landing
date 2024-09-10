@@ -1,0 +1,19 @@
+baseURL = 'https://bilbostack.com'
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = false
+[languages]
+    [languages.es]
+      disabled = false
+      languageCode = 'es'
+      languageName = 'ES'
+      weight = 2
+    [languages.en]
+      disabled = false
+      languageCode = 'en'
+      languageName = 'EN'
+      weight = 1
+    [languages.eu]
+      disabled = false
+      languageCode = 'eu'
+      languageName = 'EU'
+      weight = 0

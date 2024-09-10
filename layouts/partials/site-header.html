@@ -1,0 +1,29 @@
+<header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 offset-lg-9 col-4 offset-8">
+        <div class="row">
+          <p class="links text-center">
+            {{ range $.Site.Home.AllTranslations }}
+                <a href="{{ .RelPermalink }}"
+                   {{ if eq .Lang $.Lang }}class="current"{{ end }}>{{ .Language.LanguageName }}</a>
+            {{ end }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        {{ with resources.Get "img/logo-header.png" }}
+          {{ with .Resize "2000x webp q85 lanczos" }}
+            <img src="{{ .RelPermalink }}"
+                 width="{{ .Width }}"
+                 height="auto"
+                 alt="{{T "logo_alt" }}">
+          {{ end }}
+        {{ end }}
+        <h2 class="info">{{T "header_where" | safeHTML }}</h2>
+      </div>
+    </div>
+  </div>
+</header>
