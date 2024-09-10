@@ -5,7 +5,8 @@
         <div class="row">
           <p class="links text-center">
             {{ range $.Site.Home.AllTranslations }}
-              <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+                <a href="{{ .RelPermalink }}"
+                   {{ if eq .Lang $.Lang }}class="current"{{ end }}>{{ .Language.LanguageName }}</a>
             {{ end }}
           </p>
         </div>
@@ -13,8 +14,15 @@
     </div>
     <div class="row">
       <div class="col-lg-10 offset-lg-1">
-        <img src="/img/logo-header.png" alt="Bilbostack Tech Conference">
-        <h2 class="info"><strong>25.01.2025</strong> en&nbsp;Bilbao</h2>
+        {{ with resources.Get "img/logo-header.png" }}
+          {{ with .Resize "2000x webp q85 lanczos" }}
+            <img src="{{ .RelPermalink }}"
+                 width="{{ .Width }}"
+                 height="auto"
+                 alt="{{T "logo_alt" }}">
+          {{ end }}
+        {{ end }}
+        <h2 class="info">{{T "header_where" | safeHTML }}</h2>
       </div>
     </div>
   </div>

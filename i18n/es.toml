@@ -1,49 +1,9 @@
-[more]
-other = "Más"
-
-[allTitle]
-other = "Todos los {{.Title }}"
-
-[recentTitle]
-other = "{{.Title }} recientes"
-
-[readMore]
-other = "Leer más"
-
-[by]
-other = "Por"
-
-[whatsInThis]
-other = "Qué hay en este {{ .Type }}"
-
-[related]
-other = "Relacionado"
-
-[yourName]
-other = "Tu nombre"
-
-[emailAddress]
-other = "Dirección de correo electrónico"
-
-[message]
-other = "Mensaje"
-
-[emailRequiredNote]
-other = "Se requiere una dirección de correo electrónico."
-
-[send]
-other = "Enviar"
-
-[taxonomyPageList]
-other = "A continuación encontrará las páginas asociadas a “{{ .Title }}”"
-
-[readingTime]
-one = "Lectura en un minuto"
-other = "Lectura en {{ .Count }} minutos"
-
-[wordCount]
-one = "Una palabra"
-other = "{{ .Count }} palabras"
-
-[pageTitle]
-other = "{{ .Name }} pagina"
+meta_description = "Volvemos el 25 de Enero de 2025 en Bilbao"
+meta_title = "#Bilbostack25, 25 de Enero de 2025 en Bilbao"
+logo_alt = "Bilbostack Tech Conference"
+header_where = "<strong>25.01.2025</strong> en Bilbao"
+claim_desktop = "Vendrás por <strong>la&nbsp;conferencia</strong>, volverás por <strong>la&nbsp;experiencia.</strong>"
+claim_mobile = "Volverás por <strong>la&nbsp;experiencia.</strong>"
+cta_sponsors = "Dossier de patrocinio"
+last_editions_text = "Echa un ojo a las ediciones anteriores"
+footer_contact_text = "Escríbenos <a href=\"{{.mail}}\" target=\"_blank\">un correo</a> o encuentrános en:"
