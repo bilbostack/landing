@@ -2,16 +2,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{T "meta_title"}}</title>
 <meta name="description" content="{{T "meta_description"}}">
-<meta property="og:url" content="https://bilbostack.com">
-<meta property="twitter:domain" content="bilbostack.com">
-<meta property="twitter:url" content="https://bilbostack.com">
+<meta property="og:url" content="{{$.Site.Params.domainURL}}">
+<meta property="twitter:domain" content="{{$.Site.Params.domain}}">
+<meta property="twitter:url" content="{{$.Site.Params.domainURL}}">
 <meta property="og:type" content="website">
-<meta property="og:title" content="#Bilbostack25">
-<meta property="og:description" content="{{T "meta_description"}}">
+<meta property="og:title" content="{{$.Site.Params.hashtag}}">
+<meta name="twitter:title" content="{{$.Site.Params.hashtag}}">
+<meta property="og:description" content="{{T "meta_description" }}">
 <meta name="twitter:description" content="{{T "meta_description"}}">
 {{ with resources.Get "img/bilbostack-logo.png" }}
     <meta property="og:image" content="{{ .Permalink }}">
     <meta name="twitter:image" content="{{ .Permalink }}">
 {{ end }}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="#Bilbostack25">
