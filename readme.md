@@ -14,3 +14,6 @@ hugo server
 ### Publish
 We include the ```netlify.toml``` configuration file for automatic deploy to the [Netlify](https://www.netlify.com/) hosting platform.  
 See [the official Netlify documentation](https://docs.netlify.com/frameworks/hugo/) for more details.
+
+### ToDo
+  - [ ] Extract all the reusable code to a theme repository to improve the maintainability
