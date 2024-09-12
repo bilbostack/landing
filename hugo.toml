@@ -3,6 +3,8 @@ defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 [params]
     hashtag = "#Bilbostack25"
+    sponsorsLink = "https://docs.google.com/presentation/d/10Brg_D1M-7E-SyBWArMMgeSF6AuzdXIgJyDGk7sklsk/edit?usp=sharing"
+    youtubeEmbedURL = "https://www.youtube.com/embed/cibqKWMiMQA?si=Edt43LCo1IW_Geue"
     contactEmail = "info@bilbostack.com"
     editions = [
         { year = 2012, url = "https://web.archive.org/web/20120502190422/http://bilbostack.com/" },

@@ -1,11 +1,10 @@
 {{ define "main" }}
-{{ $editions := $.Site.Params.Editions }}
 <article>
   <div class="container-fluid">
     <div class="col-lg-8 offset-lg-2">
       <h1 class="hidden-small">{{T "claim_desktop" | safeHTML }}</h1>
       <h1 class="hidden-big">{{T "claim_mobile" | safeHTML }}</h1>
-      <a href="https://docs.google.com/presentation/d/10Brg_D1M-7E-SyBWArMMgeSF6AuzdXIgJyDGk7sklsk/edit?usp=sharing"
+      <a href="{{$.Site.Params.sponsorsLink}}"
          target="_blank"
          title="{{T "cta_sponsors" }}"
          class="btn btn-lg btn-outline-light sponsors">{{T "cta_sponsors" }}</a>
@@ -14,19 +13,12 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
-        <iframe src="https://www.youtube.com/embed/cibqKWMiMQA?si=Edt43LCo1IW_Geue" title="YouTube video player"
+        <iframe src="{{$.Site.Params.youtubeEmbedUrl}}" title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen></iframe>
       </div>
-      <p class="editions">
-        {{T "last_editions_text" }} <br>
-        {{ range $index, $edition := $editions }}
-          {{ if $index }}|{{ end }}
-          {{ if eq .year 2022 }} <span>2😷21</span> | {{ end }}
-          <a href="{{.url}}" target="_blank">{{.year}}</a>
-        {{ end }}
-      </p>
+      {{ partial "home-editions.html" .}}
     </div>
   </div>
 </article>
