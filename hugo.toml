@@ -3,7 +3,7 @@ defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 [params]
     hashtag = "#Bilbostack25"
-    sponsorsLink = "https://docs.google.com/presentation/d/10Brg_D1M-7E-SyBWArMMgeSF6AuzdXIgJyDGk7sklsk/edit?usp=sharing"
+    sponsorsLink = "https://bilbostack.com/Bilbostack25-sponsors.es.pdf"
     youtubeEmbedURL = "https://www.youtube.com/embed/cibqKWMiMQA?si=Edt43LCo1IW_Geue"
     contactEmail = "info@bilbostack.com"
     editions = [
