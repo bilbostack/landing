@@ -4,6 +4,7 @@ defaultContentLanguageInSubdir = false
 [params]
     hashtag = "#Bilbostack25"
     sponsorsLink = "https://bilbostack.com/Bilbostack25-sponsors.es.pdf"
+    ticketsLink = "https://bilbostack.com/Bilbostack25-sponsors.es.pdf"
     youtubeEmbedURL = "https://www.youtube.com/embed/cibqKWMiMQA?si=Edt43LCo1IW_Geue"
     contactEmail = "info@bilbostack.com"
     editions = [
