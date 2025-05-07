@@ -2,9 +2,9 @@ baseURL = "https://bilbostack.com"
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 [params]
-    hashtag = "#Bilbostack25"
-    sponsorsLink = "https://bilbostack.com/Bilbostack25-sponsors.es.pdf"
-    ticketsLink = "https://bilbostack.com/Bilbostack25-sponsors.es.pdf"
+    hashtag = "#Bilbostack26"
+    sponsorsLink = ""
+    ticketsLink = ""
     youtubeEmbedURL = "https://www.youtube.com/embed/edKZ1P5xKyk?si=v7G8EOShgi0bSPA_"
     contactEmail = "info@bilbostack.com"
     editions = [
