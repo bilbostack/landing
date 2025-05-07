@@ -5,7 +5,7 @@ defaultContentLanguageInSubdir = false
     hashtag = "#Bilbostack25"
     sponsorsLink = "https://bilbostack.com/Bilbostack25-sponsors.es.pdf"
     ticketsLink = "https://bilbostack.com/Bilbostack25-sponsors.es.pdf"
-    youtubeEmbedURL = "https://www.youtube.com/embed/cibqKWMiMQA?si=Edt43LCo1IW_Geue"
+    youtubeEmbedURL = "https://www.youtube.com/embed/edKZ1P5xKyk?si=v7G8EOShgi0bSPA_"
     contactEmail = "info@bilbostack.com"
     editions = [
         { year = 2012, url = "https://web.archive.org/web/20120502190422/http://bilbostack.com/" },
@@ -20,6 +20,7 @@ defaultContentLanguageInSubdir = false
         { year = 2022, url = "https://2022.bilbostack.com/" },
         { year = 2023, url = "https://2023.bilbostack.com/" },
         { year = 2024, url = "https://2024.bilbostack.com/" },
+        { year = 2025, url = "https://2025.bilbostack.com/" },
     ]
     socialLinks = [
         { title = "Twitter X", url = "https://twitter.com/bilbostack" },
