@@ -23,7 +23,8 @@ defaultContentLanguageInSubdir = false
         { year = 2025, url = "https://2025.bilbostack.com/" },
     ]
     socialLinks = [
-        { title = "Twitter X", url = "https://twitter.com/bilbostack" },
+        { title = "Bluesky", url = "https://bsky.app/profile/bilbostack.com" },
+        { title = "X", url = "https://twitter.com/bilbostack" },
         { title = "Telegram", url = "https://t.me/bilbostack20" },
         { title = "Github", url = "https://github.com/bilbostack" },
     ]
