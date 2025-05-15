@@ -16,6 +16,7 @@ body{
     --bs-btn-border-radius: 0;
     --bs-btn-hover-bg: #E1277C;
     margin: 1em;
+     border-width: 2px;
  }
 .hidden-big{
     display: inline-block;
