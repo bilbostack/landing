@@ -5,7 +5,7 @@ defaultContentLanguageInSubdir = false
     hashtag = "#Bilbostack26"
     sponsorsLink = "/BilboStack26Patros.pdf"
     ticketsLink = ""
-    youtubeEmbedURL = "https://www.youtube.com/embed/edKZ1P5xKyk?si=v7G8EOShgi0bSPA_"
+    youtubeEmbedURL = "https://www.youtube.com/embed/1frrmdJdRaI?si=quAfQIwRNAm1AoA3"
     contactEmail = "info@bilbostack.com"
     editions = [
         { year = 2012, url = "https://web.archive.org/web/20120502190422/http://bilbostack.com/" },
