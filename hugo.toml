@@ -2,8 +2,8 @@ baseURL = "https://bilbostack.com"
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 [params]
-    hashtag = "#Bilbostack26"
-    sponsorsLink = "/BilboStack26Patros.pdf"
+    hashtag = "#Bilbostack27"
+    sponsorsLink = "/BilboStack27Patros.pdf"
     ticketsLink = ""
     youtubeEmbedURL = "https://www.youtube.com/embed/1frrmdJdRaI?si=quAfQIwRNAm1AoA3"
     contactEmail = "info@bilbostack.com"
@@ -21,6 +21,7 @@ defaultContentLanguageInSubdir = false
         { year = 2023, url = "https://2023.bilbostack.com/" },
         { year = 2024, url = "https://2024.bilbostack.com/" },
         { year = 2025, url = "https://2025.bilbostack.com/" },
+        { year = 2026, url = "https://2026.bilbostack.com/" },
     ]
     socialLinks = [
         { title = "Bluesky", url = "https://bsky.app/profile/bilbostack.com" },
