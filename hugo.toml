@@ -3,7 +3,7 @@ defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 [params]
     hashtag = "#Bilbostack27"
-    sponsorsLink = "/BilboStack27Patros.pdf"
+    sponsorsLink = "/BilboStack26Patros.pdf"
     ticketsLink = ""
     youtubeEmbedURL = "https://www.youtube.com/embed/1frrmdJdRaI?si=quAfQIwRNAm1AoA3"
     contactEmail = "info@bilbostack.com"
